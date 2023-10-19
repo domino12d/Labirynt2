@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
             gameManager = this;
 
         if (timeToEnd <= 0)
-            timeToEnd = 5;
+            timeToEnd = 60;
         InvokeRepeating("Stopper", 2, 1);
     }
 
